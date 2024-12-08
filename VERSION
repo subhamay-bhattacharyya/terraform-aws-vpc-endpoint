@@ -1,0 +1,12 @@
+#### Version: 1.0.0
+Initial release of the Terraform module.
+Version: 1.0.0
+Author: Subhamay Bhattacharyya
+Created: 07-Dec-2024
+Updated: 07-Dec-2024
+Description: This module creates and manages AWS VPC endpoints using Terraform.
+
+## Features
+- Variable `environment-name` with validation for "devl", "test", and "prod".
+- Variable `vpc-endpoints` with default values for multiple AWS services.
+- Example VPC endpoints for SSM, EC2 messages, S3, and KMS.
